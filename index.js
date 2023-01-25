@@ -5,7 +5,7 @@ const { getApiFootballBetaRequest } = require('./apis/API-Football-Beta/query');
 
 const fetchApiFootballBetaData = async () => {
     const date = new Date().toISOString().slice(0, 10);
-    const query = `odds?league=${API_FOOTBALL_LEAGUES_ENUM.LA_LIGA}&season=2022&date=${date}`;
+    const query = `odds?league=${API_FOOTBALL_LEAGUES_ENUM.PREMIER_LEAGUE}&season=2022&date=${date}`;
     const data = await getApiFootballBetaRequest(query);
     const results = await getResults(data);
     return results;
