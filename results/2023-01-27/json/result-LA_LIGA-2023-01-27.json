@@ -1,0 +1,14 @@
+[
+  {
+    "equipoLocal": "Almeria",
+    "equipoVisitante": "Espanyol",
+    "prediccionGanador": "Espanyol",
+    "comentarioAviso": "Double chance : draw or Espanyol",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "36.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "64.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": 2.4626315789473687,
+    "empatePromedioDeCasasDeApuestas": 3.2155555555555555,
+    "equipoVisitantePromedioDeCasasDeApuestas": 2.9863157894736845
+  }
+]

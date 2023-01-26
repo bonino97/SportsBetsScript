@@ -17,24 +17,11 @@ const getApiFootballBetaRequest = async (query) => {
 
     try {
         const { data } = await axios.request(options);
-        await validateData(data);
         return data;
     } catch (error) {
-        console.error(error);
-        throw new Error('Error getting data from API', error);
+        console.error(new Error('Error getting data from API', error));
+        return;
     }
-}
-
-const validateData = async (data) => {
-    if (!data) {
-        throw new Error('No data found');
-    }
-
-    if (data?.response?.length === 0) {
-        throw new Error('No data found');
-    }
-
-    return true;
 }
 
 module.exports = {
