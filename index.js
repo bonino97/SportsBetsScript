@@ -57,12 +57,9 @@ const main = async () => {
     await fetchApiFootballBetaData();
 }
 
-// main();
-
-// execute main() function everyday at 19:00 pm (UTC) 
-
-schedule.scheduleJob('0 32 21 * * *', async () => {
+// execute main() function everyday at 18:00 pm ARG TIME.
+schedule.scheduleJob('0 0 21 * * *', async () => {
     await main();
 });
 
-
+// main();
