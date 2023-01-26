@@ -61,11 +61,11 @@ main();
 
 // Create a timer and executes main daily at 00:00:00
 
-// const rule = new schedule.RecurrenceRule();
+const rule = new schedule.RecurrenceRule();
 
-// rule.hour = 0;
-// rule.minute = 0;
-// rule.second = 0;
-// rule.dayOfWeek = new schedule.Range(0, 6, 1);
+rule.hour = 0;
+rule.minute = 0;
+rule.second = 0;
+rule.dayOfWeek = new schedule.Range(0, 6, 1);
 
-// schedule.scheduleJob(rule, main);
+schedule.scheduleJob(rule, main);

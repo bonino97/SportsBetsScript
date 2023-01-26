@@ -1,0 +1,14 @@
+[
+  {
+    "equipoLocal": "Lorient",
+    "equipoVisitante": "Rennes",
+    "prediccionGanador": "Rennes",
+    "comentarioAviso": "Double chance : draw or Rennes",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "37.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "62.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.77",
+    "empatePromedioDeCasasDeApuestas": "3.63",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.93"
+  }
+]
