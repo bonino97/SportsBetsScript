@@ -1,13 +1,17 @@
 'use strict';
-const fs = require('fs');
+const schedule = require('node-schedule');
 const { parse } = require('json2csv');
+
 const { API_FOOTBALL_LEAGUES_ENUM, API_FOOTBALL_LEAGUES_ENUM_REVERSE } = require('./apis/API-Football-Beta/enums');
 const { getApiFootballBetaRequest } = require('./apis/API-Football-Beta/query');
 const { getApiResultsHandled } = require('./utils/results');
 const { getStatistics } = require('./utils/statistics');
 const { writeFileSync } = require('./utils/files');
+const { sendTelegramMessage } = require('./utils/telegram');
+const { createTelegramMessage } = require('./utils/message');
 
 const fetchApiFootballBetaData = async () => {
+    const globalStatistics = [];
     // Create Date for Tomorrow. Format: YYYY-MM-DD
     const today = new Date();
     const addOneDayToDate = today.setDate(today.getDate() + 1);
@@ -18,7 +22,7 @@ const fetchApiFootballBetaData = async () => {
 
     // Iterate leagues array
     for (const league of leagues) {
-        console.log(`Fetching data for ${league}...`);
+        console.info(`Fetching data for ${league}...`);
         const query = `odds?league=${league}&season=2022&date=${date}`;
         const data = await getApiFootballBetaRequest(query);
         const results = await getApiResultsHandled(data);
@@ -26,9 +30,12 @@ const fetchApiFootballBetaData = async () => {
 
         // Check if there is data for the league.
         if (statistics?.length === 0) {
-            console.log(`No data for ${league}...`);
+            console.info(`No data for ${league}...`);
             continue;
         }
+
+        // globalStatistics?.push(...statistics, { fecha: date, liga: API_FOOTBALL_LEAGUES_ENUM_REVERSE[league] });
+        // const csvGlobal = parse(globalStatistics);
 
         // Validate if ./results/date folder exists if not create it.
         writeFileSync(`./results/${date}/json/result-${API_FOOTBALL_LEAGUES_ENUM_REVERSE[league]}-${date}.json`, JSON.stringify(statistics, null, 2))
@@ -36,7 +43,13 @@ const fetchApiFootballBetaData = async () => {
         // JSON to CSV
         const csv = parse(statistics);
         writeFileSync(`./results/${date}/csv/result-${API_FOOTBALL_LEAGUES_ENUM_REVERSE[league]}-${date}.csv`, csv);
+
+        for (const statistic of statistics) {
+            const message = await createTelegramMessage(statistic, date, API_FOOTBALL_LEAGUES_ENUM_REVERSE[league]);
+            await sendTelegramMessage(message);
+        }
     }
+
     return;
 }
 
@@ -45,3 +58,14 @@ const main = async () => {
 }
 
 main();
+
+// Create a timer and executes main daily at 00:00:00
+
+// const rule = new schedule.RecurrenceRule();
+
+// rule.hour = 0;
+// rule.minute = 0;
+// rule.second = 0;
+// rule.dayOfWeek = new schedule.Range(0, 6, 1);
+
+// schedule.scheduleJob(rule, main);

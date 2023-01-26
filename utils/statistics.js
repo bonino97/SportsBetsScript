@@ -23,9 +23,9 @@ const getStatistics = async (results) => {
             posibilidadDeEmpate: result?.fixture?.predictions?.win_or_draw,
             equipoLocalPorcentajeEnLasEstadisticas: result?.fixture?.comparison?.total?.home,
             equipoVisitantePorcentajeEnLasEstadisticas: result?.fixture?.comparison?.total?.away,
-            equipoLocalPromedioDeCasasDeApuestas: homeBookmakerAverage,
-            empatePromedioDeCasasDeApuestas: drawBookmakerAverage,
-            equipoVisitantePromedioDeCasasDeApuestas: awayBookmakerAverage,
+            equipoLocalPromedioDeCasasDeApuestas: homeBookmakerAverage.toFixed(2),
+            empatePromedioDeCasasDeApuestas: drawBookmakerAverage.toFixed(2),
+            equipoVisitantePromedioDeCasasDeApuestas: awayBookmakerAverage.toFixed(2),
         });
     }
     return statistics;

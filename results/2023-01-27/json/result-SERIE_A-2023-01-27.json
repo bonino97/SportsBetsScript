@@ -1,0 +1,26 @@
+[
+  {
+    "equipoLocal": "Bologna",
+    "equipoVisitante": "Spezia",
+    "prediccionGanador": "Bologna",
+    "comentarioAviso": "Double chance : Bologna or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "64.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "35.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.92",
+    "empatePromedioDeCasasDeApuestas": "3.45",
+    "equipoVisitantePromedioDeCasasDeApuestas": "4.16"
+  },
+  {
+    "equipoLocal": "Lecce",
+    "equipoVisitante": "Salernitana",
+    "prediccionGanador": "Lecce",
+    "comentarioAviso": "Double chance : Lecce or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "77.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "22.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.87",
+    "empatePromedioDeCasasDeApuestas": "3.50",
+    "equipoVisitantePromedioDeCasasDeApuestas": "4.24"
+  }
+]
