@@ -1,3 +1,3 @@
-"equipoLocal","equipoVisitante","prediccionGanador","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
-"Bayer Leverkusen","Borussia Dortmund","Bayer Leverkusen","Double chance : Bayer Leverkusen or draw",true,"58.3%","41.8%","2.43","3.74","2.69"
-"FC Schalke 04","FC Koln","FC Koln","Winner : FC Koln",false,"29.3%","70.7%","3.65","3.72","1.97"
+"fecha","liga","equipoLocal","equipoVisitante","prediccionGanadorAPI","prediccionGanadorApuestas","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
+"2023-01-29","BUNDESLIGA","Bayer Leverkusen","Borussia Dortmund","Bayer Leverkusen","Equipo Local","Double chance : Bayer Leverkusen or draw","Probable","58.5%","41.7%","2.43","3.74","2.69"
+"2023-01-29","BUNDESLIGA","FC Schalke 04","FC Koln","FC Koln","Equipo Visitante","Winner : FC Koln","No","29.3%","70.7%","3.72","3.72","1.96"

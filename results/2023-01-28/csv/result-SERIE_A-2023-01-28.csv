@@ -1,0 +1,4 @@
+"equipoLocal","equipoVisitante","prediccionGanador","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
+"Atalanta","Sampdoria","Atalanta","Winner : Atalanta",false,"71.8%","28.2%","1.34","5.23","9.10"
+"Cremonese","Inter","Inter","Winner : Inter",false,"23.8%","76.2%","6.74","4.43","1.48"
+"Empoli","Torino","Empoli","Combo Double chance : Empoli or draw and -3.5 goals",true,"52.5%","47.5%","3.27","3.07","2.41"

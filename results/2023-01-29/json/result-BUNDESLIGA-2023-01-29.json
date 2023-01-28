@@ -1,26 +1,32 @@
 [
   {
+    "fecha": "2023-01-29",
+    "liga": "BUNDESLIGA",
     "equipoLocal": "Bayer Leverkusen",
     "equipoVisitante": "Borussia Dortmund",
-    "prediccionGanador": "Bayer Leverkusen",
+    "prediccionGanadorAPI": "Bayer Leverkusen",
+    "prediccionGanadorApuestas": "Equipo Local",
     "comentarioAviso": "Double chance : Bayer Leverkusen or draw",
-    "posibilidadDeEmpate": true,
-    "equipoLocalPorcentajeEnLasEstadisticas": "58.3%",
-    "equipoVisitantePorcentajeEnLasEstadisticas": "41.8%",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "58.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "41.7%",
     "equipoLocalPromedioDeCasasDeApuestas": "2.43",
     "empatePromedioDeCasasDeApuestas": "3.74",
     "equipoVisitantePromedioDeCasasDeApuestas": "2.69"
   },
   {
+    "fecha": "2023-01-29",
+    "liga": "BUNDESLIGA",
     "equipoLocal": "FC Schalke 04",
     "equipoVisitante": "FC Koln",
-    "prediccionGanador": "FC Koln",
+    "prediccionGanadorAPI": "FC Koln",
+    "prediccionGanadorApuestas": "Equipo Visitante",
     "comentarioAviso": "Winner : FC Koln",
-    "posibilidadDeEmpate": false,
+    "posibilidadDeEmpate": "No",
     "equipoLocalPorcentajeEnLasEstadisticas": "29.3%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "70.7%",
-    "equipoLocalPromedioDeCasasDeApuestas": "3.65",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.72",
     "empatePromedioDeCasasDeApuestas": "3.72",
-    "equipoVisitantePromedioDeCasasDeApuestas": "1.97"
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.96"
   }
 ]

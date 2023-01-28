@@ -1,0 +1,7 @@
+"equipoLocal","equipoVisitante","prediccionGanador","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
+"Bayern Munich","Eintracht Frankfurt","Bayern Munich","Double chance : Bayern Munich or draw",true,"59.7%","40.3%","1.32","5.95","8.47"
+"SC Freiburg","FC Augsburg","SC Freiburg","Double chance : SC Freiburg or draw",true,"67.3%","32.7%","1.59","4.21","5.52"
+"FSV Mainz 05","VfL BOCHUM","VfL BOCHUM","Double chance : draw or VfL BOCHUM",true,"44.2%","55.8%","1.74","3.86","4.70"
+"1899 Hoffenheim","Borussia Monchengladbach","Borussia Monchengladbach","Double chance : draw or Borussia Monchengladbach",true,"40.0%","60.0%","2.01","3.91","3.42"
+"Hertha Berlin","Union Berlin","Union Berlin","Double chance : draw or Union Berlin",true,"33.2%","66.8%","3.86","3.22","2.10"
+"Werder Bremen","VfL Wolfsburg","VfL Wolfsburg","Combo Double chance : draw or VfL Wolfsburg and +1.5 goals",true,"25.7%","74.3%","3.40","3.70","2.07"

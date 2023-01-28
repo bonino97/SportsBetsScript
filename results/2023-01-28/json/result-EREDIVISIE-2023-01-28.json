@@ -1,0 +1,62 @@
+[
+  {
+    "equipoLocal": "Waalwijk",
+    "equipoVisitante": "Emmen",
+    "prediccionGanador": "Waalwijk",
+    "comentarioAviso": "Winner : Waalwijk",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "53.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "46.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.20",
+    "empatePromedioDeCasasDeApuestas": "3.32",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.30"
+  },
+  {
+    "equipoLocal": "PSV Eindhoven",
+    "equipoVisitante": "GO Ahead Eagles",
+    "prediccionGanador": "PSV Eindhoven",
+    "comentarioAviso": "Double chance : PSV Eindhoven or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "58.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "42.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.25",
+    "empatePromedioDeCasasDeApuestas": "6.25",
+    "equipoVisitantePromedioDeCasasDeApuestas": "10.39"
+  },
+  {
+    "equipoLocal": "NEC Nijmegen",
+    "equipoVisitante": "Sparta Rotterdam",
+    "prediccionGanador": "Sparta Rotterdam",
+    "comentarioAviso": "Double chance : draw or Sparta Rotterdam",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "38.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "61.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.32",
+    "empatePromedioDeCasasDeApuestas": "3.21",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.15"
+  },
+  {
+    "equipoLocal": "Heerenveen",
+    "equipoVisitante": "Vitesse",
+    "prediccionGanador": "Heerenveen",
+    "comentarioAviso": "Double chance : Heerenveen or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "59.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "40.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.31",
+    "empatePromedioDeCasasDeApuestas": "3.33",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.05"
+  },
+  {
+    "equipoLocal": "AZ Alkmaar",
+    "equipoVisitante": "Utrecht",
+    "prediccionGanador": "AZ Alkmaar",
+    "comentarioAviso": "Double chance : AZ Alkmaar or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "60.2%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "40.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.64",
+    "empatePromedioDeCasasDeApuestas": "3.98",
+    "equipoVisitantePromedioDeCasasDeApuestas": "5.07"
+  }
+]

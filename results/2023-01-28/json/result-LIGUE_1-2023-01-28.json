@@ -1,0 +1,26 @@
+[
+  {
+    "equipoLocal": "Marseille",
+    "equipoVisitante": "Monaco",
+    "prediccionGanador": "Marseille",
+    "comentarioAviso": "Combo Double chance : Marseille or draw and +1.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "56.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "43.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.07",
+    "empatePromedioDeCasasDeApuestas": "3.59",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.48"
+  },
+  {
+    "equipoLocal": "Estac Troyes",
+    "equipoVisitante": "Lens",
+    "prediccionGanador": "Lens",
+    "comentarioAviso": "Double chance : draw or Lens",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "27.8%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "72.2%",
+    "equipoLocalPromedioDeCasasDeApuestas": "5.76",
+    "empatePromedioDeCasasDeApuestas": "4.11",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.57"
+  }
+]

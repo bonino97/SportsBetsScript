@@ -1,0 +1,122 @@
+[
+  {
+    "equipoLocal": "Sheffield Wednesday",
+    "equipoVisitante": "Fleetwood Town",
+    "prediccionGanador": "Sheffield Wednesday",
+    "comentarioAviso": "Combo Double chance : Sheffield Wednesday or draw and -3.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "55.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "45.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.49",
+    "empatePromedioDeCasasDeApuestas": "4.27",
+    "equipoVisitantePromedioDeCasasDeApuestas": "6.67"
+  },
+  {
+    "equipoLocal": "Preston",
+    "equipoVisitante": "Tottenham",
+    "prediccionGanador": "Preston",
+    "comentarioAviso": "Winner : Preston",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "62.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "37.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "8.29",
+    "empatePromedioDeCasasDeApuestas": "4.87",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.37"
+  },
+  {
+    "equipoLocal": "Ipswich",
+    "equipoVisitante": "Burnley",
+    "prediccionGanador": "Ipswich",
+    "comentarioAviso": "Combo Winner : Ipswich and +2.5 goals",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "59.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "41.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.10",
+    "empatePromedioDeCasasDeApuestas": "3.38",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.28"
+  },
+  {
+    "equipoLocal": "Manchester United",
+    "equipoVisitante": "Reading",
+    "prediccionGanador": "Manchester United",
+    "comentarioAviso": "Double chance : Manchester United or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "62.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "38.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.14",
+    "empatePromedioDeCasasDeApuestas": "8.14",
+    "equipoVisitantePromedioDeCasasDeApuestas": "17.06"
+  },
+  {
+    "equipoLocal": "Southampton",
+    "equipoVisitante": "Blackpool",
+    "prediccionGanador": "Blackpool",
+    "comentarioAviso": "Combo Winner : Blackpool and +1.5 goals",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "36.4%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "63.6%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.50",
+    "empatePromedioDeCasasDeApuestas": "4.32",
+    "equipoVisitantePromedioDeCasasDeApuestas": "6.30"
+  },
+  {
+    "equipoLocal": "Walsall",
+    "equipoVisitante": "Leicester",
+    "prediccionGanador": "Walsall",
+    "comentarioAviso": "Combo Double chance : Walsall or draw and -3.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "80.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "19.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "11.79",
+    "empatePromedioDeCasasDeApuestas": "5.54",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.27"
+  },
+  {
+    "equipoLocal": "Blackburn",
+    "equipoVisitante": "Birmingham",
+    "prediccionGanador": "Blackburn",
+    "comentarioAviso": "Combo Double chance : Blackburn or draw and -3.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "54.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "46.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.33",
+    "empatePromedioDeCasasDeApuestas": "3.26",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.13"
+  },
+  {
+    "equipoLocal": "Bristol City",
+    "equipoVisitante": "West Brom",
+    "prediccionGanador": "West Brom",
+    "comentarioAviso": "Double chance : draw or West Brom",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "40.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "59.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.07",
+    "empatePromedioDeCasasDeApuestas": "3.32",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.33"
+  },
+  {
+    "equipoLocal": "Luton",
+    "equipoVisitante": "Grimsby",
+    "prediccionGanador": "Grimsby",
+    "comentarioAviso": "Double chance : draw or Grimsby",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "45.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "54.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.46",
+    "empatePromedioDeCasasDeApuestas": "4.49",
+    "equipoVisitantePromedioDeCasasDeApuestas": "6.84"
+  },
+  {
+    "equipoLocal": "Fulham",
+    "equipoVisitante": "Sunderland",
+    "prediccionGanador": "Sunderland",
+    "comentarioAviso": "Double chance : draw or Sunderland",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "40.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "60.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.47",
+    "empatePromedioDeCasasDeApuestas": "4.57",
+    "equipoVisitantePromedioDeCasasDeApuestas": "6.34"
+  }
+]

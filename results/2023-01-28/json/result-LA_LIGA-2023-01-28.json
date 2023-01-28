@@ -1,0 +1,50 @@
+[
+  {
+    "equipoLocal": "Cadiz",
+    "equipoVisitante": "Mallorca",
+    "prediccionGanador": "Mallorca",
+    "comentarioAviso": "Combo Double chance : draw or Mallorca and -3.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "37.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "62.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.84",
+    "empatePromedioDeCasasDeApuestas": "2.69",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.10"
+  },
+  {
+    "equipoLocal": "Girona",
+    "equipoVisitante": "Barcelona",
+    "prediccionGanador": "Barcelona",
+    "comentarioAviso": "Double chance : draw or Barcelona",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "27.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "73.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "5.28",
+    "empatePromedioDeCasasDeApuestas": "4.27",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.61"
+  },
+  {
+    "equipoLocal": "Getafe",
+    "equipoVisitante": "Real Betis",
+    "prediccionGanador": "Real Betis",
+    "comentarioAviso": "Combo Double chance : draw or Real Betis and -3.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "49.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "50.8%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.14",
+    "empatePromedioDeCasasDeApuestas": "2.82",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.68"
+  },
+  {
+    "equipoLocal": "Sevilla",
+    "equipoVisitante": "Elche",
+    "prediccionGanador": "Sevilla",
+    "comentarioAviso": "Double chance : Sevilla or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "67.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "32.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.52",
+    "empatePromedioDeCasasDeApuestas": "4.07",
+    "equipoVisitantePromedioDeCasasDeApuestas": "7.00"
+  }
+]

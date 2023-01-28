@@ -14,7 +14,8 @@ const createTelegramMessage = async (object, date, league) => {
 <b> ${emoji} Liga:</b> ${league}
 <b> ⚽️ Equipo Local:</b> ${object?.equipoLocal}
 <b> ⚽️ Equipo Visitante:</b> ${object?.equipoVisitante}
-<b> 🏆 Prediccion Ganador:</b> ${object?.prediccionGanador}
+<b> 🏆 Prediccion Ganador API:</b> ${object?.prediccionGanadorAPI}
+<b> 🏆 Prediccion Ganador Apuestas:</b> ${object?.prediccionGanadorApuestas}
 <b> ⚠ Comentario Aviso:</b> ${object?.comentarioAviso}
 <b> ⚔️ Posibilidad De Empate:</b> ${object?.posibilidadDeEmpate}
 <b> 📈 Equipo Local Porcentaje En Las Estadisticas:</b> ${object?.equipoLocalPorcentajeEnLasEstadisticas}

@@ -1,0 +1,74 @@
+[
+  {
+    "equipoLocal": "Bayern Munich",
+    "equipoVisitante": "Eintracht Frankfurt",
+    "prediccionGanador": "Bayern Munich",
+    "comentarioAviso": "Double chance : Bayern Munich or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "59.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "40.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.32",
+    "empatePromedioDeCasasDeApuestas": "5.95",
+    "equipoVisitantePromedioDeCasasDeApuestas": "8.47"
+  },
+  {
+    "equipoLocal": "SC Freiburg",
+    "equipoVisitante": "FC Augsburg",
+    "prediccionGanador": "SC Freiburg",
+    "comentarioAviso": "Double chance : SC Freiburg or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "67.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "32.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.59",
+    "empatePromedioDeCasasDeApuestas": "4.21",
+    "equipoVisitantePromedioDeCasasDeApuestas": "5.52"
+  },
+  {
+    "equipoLocal": "FSV Mainz 05",
+    "equipoVisitante": "VfL BOCHUM",
+    "prediccionGanador": "VfL BOCHUM",
+    "comentarioAviso": "Double chance : draw or VfL BOCHUM",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "44.2%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "55.8%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.74",
+    "empatePromedioDeCasasDeApuestas": "3.86",
+    "equipoVisitantePromedioDeCasasDeApuestas": "4.70"
+  },
+  {
+    "equipoLocal": "1899 Hoffenheim",
+    "equipoVisitante": "Borussia Monchengladbach",
+    "prediccionGanador": "Borussia Monchengladbach",
+    "comentarioAviso": "Double chance : draw or Borussia Monchengladbach",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "40.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "60.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.01",
+    "empatePromedioDeCasasDeApuestas": "3.91",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.42"
+  },
+  {
+    "equipoLocal": "Hertha Berlin",
+    "equipoVisitante": "Union Berlin",
+    "prediccionGanador": "Union Berlin",
+    "comentarioAviso": "Double chance : draw or Union Berlin",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "33.2%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "66.8%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.86",
+    "empatePromedioDeCasasDeApuestas": "3.22",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.10"
+  },
+  {
+    "equipoLocal": "Werder Bremen",
+    "equipoVisitante": "VfL Wolfsburg",
+    "prediccionGanador": "VfL Wolfsburg",
+    "comentarioAviso": "Combo Double chance : draw or VfL Wolfsburg and +1.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "25.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "74.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.40",
+    "empatePromedioDeCasasDeApuestas": "3.70",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.07"
+  }
+]

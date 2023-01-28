@@ -1,0 +1,38 @@
+[
+  {
+    "equipoLocal": "Atalanta",
+    "equipoVisitante": "Sampdoria",
+    "prediccionGanador": "Atalanta",
+    "comentarioAviso": "Winner : Atalanta",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "71.8%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "28.2%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.34",
+    "empatePromedioDeCasasDeApuestas": "5.23",
+    "equipoVisitantePromedioDeCasasDeApuestas": "9.10"
+  },
+  {
+    "equipoLocal": "Cremonese",
+    "equipoVisitante": "Inter",
+    "prediccionGanador": "Inter",
+    "comentarioAviso": "Winner : Inter",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "23.8%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "76.2%",
+    "equipoLocalPromedioDeCasasDeApuestas": "6.74",
+    "empatePromedioDeCasasDeApuestas": "4.43",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.48"
+  },
+  {
+    "equipoLocal": "Empoli",
+    "equipoVisitante": "Torino",
+    "prediccionGanador": "Empoli",
+    "comentarioAviso": "Combo Double chance : Empoli or draw and -3.5 goals",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "52.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "47.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.27",
+    "empatePromedioDeCasasDeApuestas": "3.07",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.41"
+  }
+]
