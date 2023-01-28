@@ -5,7 +5,12 @@ const API_FOOTBALL_LEAGUES_ENUM = {
     LA_LIGA: 140,
     SERIE_A: 135,
     BUNDESLIGA: 78,
-    LIGUE_1: 61
+    LIGUE_1: 61,
+    FA_CUP: 40
+    // CHAMPIONS_LEAGUE: 2,
+    // EUROPA_LEAGUE: 3,
+    // EFL_CUP: 41,
+    // EPL: 39,
 }
 // Reverse enum
 const API_FOOTBALL_LEAGUES_ENUM_REVERSE = {
@@ -14,6 +19,7 @@ const API_FOOTBALL_LEAGUES_ENUM_REVERSE = {
     135: 'SERIE_A',
     78: 'BUNDESLIGA',
     61: 'LIGUE_1',
+    40: 'FA_CUP'
 }
 
 module.exports = {
