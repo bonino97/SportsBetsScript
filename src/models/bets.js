@@ -42,6 +42,10 @@ const betsSchema = mongoose.Schema({
         type: Number,
         required: false
     },
+    oddResult: {
+        type: String,
+        required: false
+    },
 }, { timestamps: true });
 
 module.exports = mongoose.model('Bets', betsSchema);
