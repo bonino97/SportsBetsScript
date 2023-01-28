@@ -33,8 +33,16 @@ const fetchApiFootballBetaData = async () => {
     for (const league of leagues) {
         console.info(`Fetching data for ${league}...`);
         const query = `odds?league=${league}&season=2022&date=${date}`;
+        
+        // Await three seconds to avoid API rate limit.
+        await new Promise(resolve => setTimeout(resolve, 3000));
         const data = await getApiFootballBetaRequest(query);
+        
+        // Await three seconds to avoid API rate limit.
+        await new Promise(resolve => setTimeout(resolve, 3000));
         const results = await getApiResultsHandled(data);
+
+        // Continue
         const statistics = await getStatistics(results, date, API_FOOTBALL_LEAGUES_ENUM_REVERSE[league]);
 
         // Check if there is data for the league.
