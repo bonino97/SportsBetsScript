@@ -61,5 +61,3 @@ const main = async () => {
 schedule.scheduleJob('0 0 21 * * *', async () => {
     await main();
 });
-
-main();
