@@ -1,0 +1,8 @@
+"equipoLocal","equipoVisitante","prediccionGanador","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
+"Ajaccio","Lyon","Lyon","Double chance : draw or Lyon",true,"39.0%","61.0%","4.48","3.65","1.79"
+"Auxerre","Montpellier","Montpellier","Double chance : draw or Montpellier",true,"41.8%","58.2%","2.43","3.38","2.87"
+"Clermont Foot","Nantes","Nantes","Double chance : draw or Nantes",true,"45.7%","54.3%","2.40","3.28","2.99"
+"Nice","Lille","Lille","Double chance : draw or Lille",true,"42.7%","57.3%","2.87","3.30","2.46"
+"Paris Saint Germain","Reims","Paris Saint Germain","Double chance : Paris Saint Germain or draw",true,"63.6%","36.8%","1.23","6.62","11.42"
+"Strasbourg","Toulouse","Strasbourg","Double chance : Strasbourg or draw",true,"54.8%","45.3%","2.33","3.43","2.98"
+"Stade Brestois 29","Angers","Stade Brestois 29","Double chance : Stade Brestois 29 or draw",true,"64.4%","35.6%","2.09","3.46","3.43"

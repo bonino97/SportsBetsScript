@@ -1,0 +1,26 @@
+[
+  {
+    "equipoLocal": "Bayer Leverkusen",
+    "equipoVisitante": "Borussia Dortmund",
+    "prediccionGanador": "Bayer Leverkusen",
+    "comentarioAviso": "Double chance : Bayer Leverkusen or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "58.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "41.8%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.43",
+    "empatePromedioDeCasasDeApuestas": "3.74",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.69"
+  },
+  {
+    "equipoLocal": "FC Schalke 04",
+    "equipoVisitante": "FC Koln",
+    "prediccionGanador": "FC Koln",
+    "comentarioAviso": "Winner : FC Koln",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "29.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "70.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.65",
+    "empatePromedioDeCasasDeApuestas": "3.72",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.97"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "equipoLocal": "Juventus",
+    "equipoVisitante": "Monza",
+    "prediccionGanador": "Juventus",
+    "comentarioAviso": "Double chance : Juventus or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "58.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "41.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.54",
+    "empatePromedioDeCasasDeApuestas": "4.06",
+    "equipoVisitantePromedioDeCasasDeApuestas": "6.31"
+  },
+  {
+    "equipoLocal": "AC Milan",
+    "equipoVisitante": "Sassuolo",
+    "prediccionGanador": "AC Milan",
+    "comentarioAviso": "Winner : AC Milan",
+    "posibilidadDeEmpate": false,
+    "equipoLocalPorcentajeEnLasEstadisticas": "66.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "33.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.49",
+    "empatePromedioDeCasasDeApuestas": "4.65",
+    "equipoVisitantePromedioDeCasasDeApuestas": "5.97"
+  },
+  {
+    "equipoLocal": "Napoli",
+    "equipoVisitante": "AS Roma",
+    "prediccionGanador": "Napoli",
+    "comentarioAviso": "Double chance : Napoli or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "66.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "34.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.74",
+    "empatePromedioDeCasasDeApuestas": "3.73",
+    "equipoVisitantePromedioDeCasasDeApuestas": "4.91"
+  },
+  {
+    "equipoLocal": "Lazio",
+    "equipoVisitante": "Fiorentina",
+    "prediccionGanador": "Lazio",
+    "comentarioAviso": "Double chance : Lazio or draw",
+    "posibilidadDeEmpate": true,
+    "equipoLocalPorcentajeEnLasEstadisticas": "68.3%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "31.7%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.08",
+    "empatePromedioDeCasasDeApuestas": "3.33",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.70"
+  }
+]

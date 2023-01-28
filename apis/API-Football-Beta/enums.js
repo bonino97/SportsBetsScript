@@ -6,7 +6,8 @@ const API_FOOTBALL_LEAGUES_ENUM = {
     SERIE_A: 135,
     BUNDESLIGA: 78,
     LIGUE_1: 61,
-    FA_CUP: 40
+    EREDIVISIE: 88,
+    FA_CUP: 45,
     // CHAMPIONS_LEAGUE: 2,
     // EUROPA_LEAGUE: 3,
     // EFL_CUP: 41,
@@ -19,7 +20,8 @@ const API_FOOTBALL_LEAGUES_ENUM_REVERSE = {
     135: 'SERIE_A',
     78: 'BUNDESLIGA',
     61: 'LIGUE_1',
-    40: 'FA_CUP'
+    88: 'EREDIVISIE',
+    45: 'FA_CUP',
 }
 
 module.exports = {
