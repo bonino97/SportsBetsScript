@@ -39,13 +39,16 @@ router.delete("/bets/:id", (req, res) => {
 });
 
 // update a bet
-router.put("/bets/:id", (req, res) => {
+router.put("/bets/:id", async (req, res) => {
     const { id } = req.params;
-    const { name, age, email } = req.body;
-    betSchema
-        .updateOne({ _id: id }, { $set: { name, age, email } })
-        .then((data) => res.json(data))
-        .catch((error) => res.json({ message: error }));
+    const { oddResult } = req.body;
+    try {
+        const bet = await betSchema.findByIdAndUpdate(id, { oddResult });
+        res.json(bet);
+    } catch (error) {
+        res.json({ message: error });
+        console.error(error);
+    }
 });
 
 module.exports = router;
