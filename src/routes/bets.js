@@ -43,7 +43,7 @@ router.put("/bets/:id", async (req, res) => {
     const { id } = req.params;
     const { oddResult } = req.body;
     try {
-        const bet = await betSchema.findByIdAndUpdate(id, { oddResult });
+        const bet = await betSchema.findByIdAndUpdate(id, { oddResult }, { new: true });
         res.json(bet);
     } catch (error) {
         res.json({ message: error });
