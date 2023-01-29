@@ -1,0 +1,17 @@
+[
+  {
+    "fecha": "2023-01-30",
+    "liga": "LA_LIGA",
+    "equipoLocal": "Villarreal",
+    "equipoVisitante": "Rayo Vallecano",
+    "prediccionGanadorAPI": "Villarreal",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : Villarreal or draw",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "73.2%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "26.8%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.69",
+    "empatePromedioDeCasasDeApuestas": "3.84",
+    "equipoVisitantePromedioDeCasasDeApuestas": "5.06"
+  }
+]

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const betsSchema = mongoose.Schema({
+const BetsSchema = mongoose.Schema({
     date: {
         type: Date,
         required: false
@@ -48,4 +48,4 @@ const betsSchema = mongoose.Schema({
     },
 }, { timestamps: true });
 
-module.exports = mongoose.model('Bets', betsSchema);
+module.exports = mongoose.model('Bets', BetsSchema);

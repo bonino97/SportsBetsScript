@@ -1,11 +1,11 @@
 const express = require("express");
-const betSchema = require("../models/bets");
+const BetsSchema = require("../models/bets");
 
 const router = express.Router();
 
 // create bet
 router.post("/bets", (req, res) => {
-    const bet = betSchema(req?.body);
+    const bet = BetsSchema(req?.body);
     bet
         .save()
         .then((data) => res.json(data))
@@ -13,8 +13,14 @@ router.post("/bets", (req, res) => {
 });
 
 // get all bets
-router.get("/bets", (req, res) => {
-    betSchema
+router.get("/bets", async (req, res) => {
+    try {
+        const bets = await BetsSchema.find().sort({ date: -1 });
+        res.status(200).json(bets);
+    } catch (error) {
+        res.status(500).send(error);
+    }
+    BetsSchema
         .find()
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));
@@ -23,7 +29,7 @@ router.get("/bets", (req, res) => {
 // get a bet
 router.get("/bets/:id", (req, res) => {
     const { id } = req.params;
-    betSchema
+    BetsSchema
         .findById(id)
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));
@@ -32,7 +38,7 @@ router.get("/bets/:id", (req, res) => {
 // delete a bet
 router.delete("/bets/:id", (req, res) => {
     const { id } = req.params;
-    betSchema
+    BetsSchema
         .remove({ _id: id })
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));
@@ -43,7 +49,7 @@ router.put("/bets/:id", async (req, res) => {
     const { id } = req.params;
     const { oddResult } = req.body;
     try {
-        const bet = await betSchema.findByIdAndUpdate(id, { oddResult }, { new: true });
+        const bet = await BetsSchema.findByIdAndUpdate(id, { oddResult }, { new: true });
         res.json(bet);
     } catch (error) {
         res.json({ message: error });
