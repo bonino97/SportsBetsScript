@@ -1,2 +1,2 @@
 "fecha","liga","equipoLocal","equipoVisitante","prediccionGanadorAPI","prediccionGanadorApuestas","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
-"2023-01-30","LA_LIGA","Villarreal","Rayo Vallecano","Villarreal","Equipo Local","Double chance : Villarreal or draw","Probable","73.2%","26.8%","1.68","3.84","5.09"
+"2023-01-30","FA_CUP","Derby","West Ham","Derby","Equipo Visitante","Winner : Derby","No","65.5%","34.5%","4.25","3.63","1.81"

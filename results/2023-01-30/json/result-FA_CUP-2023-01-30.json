@@ -1,0 +1,17 @@
+[
+  {
+    "fecha": "2023-01-30",
+    "liga": "FA_CUP",
+    "equipoLocal": "Derby",
+    "equipoVisitante": "West Ham",
+    "prediccionGanadorAPI": "Derby",
+    "prediccionGanadorApuestas": "Equipo Visitante",
+    "comentarioAviso": "Winner : Derby",
+    "posibilidadDeEmpate": "No",
+    "equipoLocalPorcentajeEnLasEstadisticas": "65.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "34.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "4.25",
+    "empatePromedioDeCasasDeApuestas": "3.63",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.81"
+  }
+]

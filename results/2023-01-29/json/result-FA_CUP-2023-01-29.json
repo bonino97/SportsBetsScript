@@ -1,0 +1,47 @@
+[
+  {
+    "fecha": "2023-01-29",
+    "liga": "FA_CUP",
+    "equipoLocal": "Wrexham",
+    "equipoVisitante": "Sheffield Utd",
+    "prediccionGanadorAPI": "Wrexham",
+    "prediccionGanadorApuestas": "Equipo Visitante",
+    "comentarioAviso": "Double chance : Wrexham or draw",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "84.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "15.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "4.42",
+    "empatePromedioDeCasasDeApuestas": "3.77",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.76"
+  },
+  {
+    "fecha": "2023-01-29",
+    "liga": "FA_CUP",
+    "equipoLocal": "Stoke City",
+    "equipoVisitante": "Stevenage",
+    "prediccionGanadorAPI": "Stoke City",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : Stoke City or draw",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "26.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "74.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.75",
+    "empatePromedioDeCasasDeApuestas": "3.52",
+    "equipoVisitantePromedioDeCasasDeApuestas": "4.90"
+  },
+  {
+    "fecha": "2023-01-29",
+    "liga": "FA_CUP",
+    "equipoLocal": "Brighton",
+    "equipoVisitante": "Liverpool",
+    "prediccionGanadorAPI": "Brighton",
+    "prediccionGanadorApuestas": "Equipo Visitante",
+    "comentarioAviso": "Combo Winner : Brighton and +1.5 goals",
+    "posibilidadDeEmpate": "No",
+    "equipoLocalPorcentajeEnLasEstadisticas": "58.2%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "42.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.91",
+    "empatePromedioDeCasasDeApuestas": "3.74",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.25"
+  }
+]

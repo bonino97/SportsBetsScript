@@ -1,0 +1,17 @@
+[
+  {
+    "fecha": "2023-01-30",
+    "liga": "SERIE_A",
+    "equipoLocal": "Udinese",
+    "equipoVisitante": "Verona",
+    "prediccionGanadorAPI": "Verona",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : draw or Verona",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "47.7%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "52.3%",
+    "equipoLocalPromedioDeCasasDeApuestas": "1.88",
+    "empatePromedioDeCasasDeApuestas": "3.60",
+    "equipoVisitantePromedioDeCasasDeApuestas": "4.16"
+  }
+]

@@ -10,9 +10,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "52.7%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "47.5%",
-    "equipoLocalPromedioDeCasasDeApuestas": "1.71",
-    "empatePromedioDeCasasDeApuestas": "3.89",
-    "equipoVisitantePromedioDeCasasDeApuestas": "4.84"
+    "equipoLocalPromedioDeCasasDeApuestas": "1.72",
+    "empatePromedioDeCasasDeApuestas": "3.78",
+    "equipoVisitantePromedioDeCasasDeApuestas": "5.08"
   },
   {
     "fecha": "2023-01-29",
@@ -25,9 +25,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "56.2%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "44.0%",
-    "equipoLocalPromedioDeCasasDeApuestas": "2.83",
-    "empatePromedioDeCasasDeApuestas": "3.02",
-    "equipoVisitantePromedioDeCasasDeApuestas": "2.73"
+    "equipoLocalPromedioDeCasasDeApuestas": "3.11",
+    "empatePromedioDeCasasDeApuestas": "2.99",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.56"
   },
   {
     "fecha": "2023-01-29",
@@ -38,11 +38,11 @@
     "prediccionGanadorApuestas": "Equipo Visitante",
     "comentarioAviso": "Combo Double chance : draw or Atletico Madrid and -3.5 goals",
     "posibilidadDeEmpate": "Probable",
-    "equipoLocalPorcentajeEnLasEstadisticas": "33.2%",
-    "equipoVisitantePorcentajeEnLasEstadisticas": "67.2%",
-    "equipoLocalPromedioDeCasasDeApuestas": "3.65",
-    "empatePromedioDeCasasDeApuestas": "3.24",
-    "equipoVisitantePromedioDeCasasDeApuestas": "2.14"
+    "equipoLocalPorcentajeEnLasEstadisticas": "33.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "67.4%",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.96",
+    "empatePromedioDeCasasDeApuestas": "3.22",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.07"
   },
   {
     "fecha": "2023-01-29",
@@ -55,8 +55,8 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "27.5%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "72.8%",
-    "equipoLocalPromedioDeCasasDeApuestas": "3.11",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.25",
     "empatePromedioDeCasasDeApuestas": "3.23",
-    "equipoVisitantePromedioDeCasasDeApuestas": "2.39"
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.33"
   }
 ]

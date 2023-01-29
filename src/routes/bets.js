@@ -1,5 +1,6 @@
 const express = require("express");
 const betSchema = require("../models/bets");
+const betApiFootballSchema = require("../models/betsApiFootball");
 
 const router = express.Router();
 
@@ -15,6 +16,14 @@ router.post("/bets", (req, res) => {
 // get all bets
 router.get("/bets", (req, res) => {
     betSchema
+        .find()
+        .then((data) => res.json(data))
+        .catch((error) => res.json({ message: error }));
+});
+
+// get all bets
+router.get("/bets-api-football", (req, res) => {
+    betApiFootballSchema
         .find()
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));

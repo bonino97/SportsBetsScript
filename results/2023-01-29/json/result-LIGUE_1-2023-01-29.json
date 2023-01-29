@@ -10,9 +10,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "39.0%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "61.0%",
-    "equipoLocalPromedioDeCasasDeApuestas": "4.50",
-    "empatePromedioDeCasasDeApuestas": "3.64",
-    "equipoVisitantePromedioDeCasasDeApuestas": "1.79"
+    "equipoLocalPromedioDeCasasDeApuestas": "4.70",
+    "empatePromedioDeCasasDeApuestas": "3.58",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.78"
   },
   {
     "fecha": "2023-01-29",
@@ -25,9 +25,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "41.8%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "58.2%",
-    "equipoLocalPromedioDeCasasDeApuestas": "2.41",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.35",
     "empatePromedioDeCasasDeApuestas": "3.37",
-    "equipoVisitantePromedioDeCasasDeApuestas": "2.89"
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.04"
   },
   {
     "fecha": "2023-01-29",
@@ -40,9 +40,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "45.7%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "54.3%",
-    "equipoLocalPromedioDeCasasDeApuestas": "2.39",
-    "empatePromedioDeCasasDeApuestas": "3.26",
-    "equipoVisitantePromedioDeCasasDeApuestas": "3.01"
+    "equipoLocalPromedioDeCasasDeApuestas": "2.40",
+    "empatePromedioDeCasasDeApuestas": "3.13",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.17"
   },
   {
     "fecha": "2023-01-29",
@@ -55,9 +55,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "42.7%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "57.3%",
-    "equipoLocalPromedioDeCasasDeApuestas": "2.83",
+    "equipoLocalPromedioDeCasasDeApuestas": "3.06",
     "empatePromedioDeCasasDeApuestas": "3.33",
-    "equipoVisitantePromedioDeCasasDeApuestas": "2.48"
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.35"
   },
   {
     "fecha": "2023-01-29",
@@ -66,13 +66,13 @@
     "equipoVisitante": "Reims",
     "prediccionGanadorAPI": "Paris Saint Germain",
     "prediccionGanadorApuestas": "Equipo Local",
-    "comentarioAviso": "Double chance : Paris Saint Germain or draw",
-    "posibilidadDeEmpate": "Probable",
+    "comentarioAviso": "Winner : Paris Saint Germain",
+    "posibilidadDeEmpate": "No",
     "equipoLocalPorcentajeEnLasEstadisticas": "63.6%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "36.8%",
     "equipoLocalPromedioDeCasasDeApuestas": "1.23",
     "empatePromedioDeCasasDeApuestas": "6.63",
-    "equipoVisitantePromedioDeCasasDeApuestas": "11.41"
+    "equipoVisitantePromedioDeCasasDeApuestas": "11.54"
   },
   {
     "fecha": "2023-01-29",
@@ -85,9 +85,9 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "54.8%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "45.3%",
-    "equipoLocalPromedioDeCasasDeApuestas": "2.34",
-    "empatePromedioDeCasasDeApuestas": "3.43",
-    "equipoVisitantePromedioDeCasasDeApuestas": "2.97"
+    "equipoLocalPromedioDeCasasDeApuestas": "2.44",
+    "empatePromedioDeCasasDeApuestas": "3.38",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.89"
   },
   {
     "fecha": "2023-01-29",
@@ -100,8 +100,8 @@
     "posibilidadDeEmpate": "Probable",
     "equipoLocalPorcentajeEnLasEstadisticas": "64.4%",
     "equipoVisitantePorcentajeEnLasEstadisticas": "35.6%",
-    "equipoLocalPromedioDeCasasDeApuestas": "2.10",
-    "empatePromedioDeCasasDeApuestas": "3.46",
-    "equipoVisitantePromedioDeCasasDeApuestas": "3.44"
+    "equipoLocalPromedioDeCasasDeApuestas": "2.13",
+    "empatePromedioDeCasasDeApuestas": "3.34",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.50"
   }
 ]

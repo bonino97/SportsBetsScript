@@ -1,0 +1,62 @@
+[
+  {
+    "fecha": "2023-01-29",
+    "liga": "EREDIVISIE",
+    "equipoLocal": "Twente",
+    "equipoVisitante": "Feyenoord",
+    "prediccionGanadorAPI": "Twente",
+    "prediccionGanadorApuestas": "Equipo Visitante",
+    "comentarioAviso": "Double chance : Twente or draw",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "54.5%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "45.5%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.72",
+    "empatePromedioDeCasasDeApuestas": "3.30",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.56"
+  },
+  {
+    "fecha": "2023-01-29",
+    "liga": "EREDIVISIE",
+    "equipoLocal": "Excelsior",
+    "equipoVisitante": "Ajax",
+    "prediccionGanadorAPI": "Ajax",
+    "prediccionGanadorApuestas": "Equipo Visitante",
+    "comentarioAviso": "Double chance : draw or Ajax",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "38.4%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "61.6%",
+    "equipoLocalPromedioDeCasasDeApuestas": "10.76",
+    "empatePromedioDeCasasDeApuestas": "6.52",
+    "equipoVisitantePromedioDeCasasDeApuestas": "1.23"
+  },
+  {
+    "fecha": "2023-01-29",
+    "liga": "EREDIVISIE",
+    "equipoLocal": "FC Volendam",
+    "equipoVisitante": "Groningen",
+    "prediccionGanadorAPI": "FC Volendam",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : FC Volendam or draw",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "47.6%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "52.4%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.26",
+    "empatePromedioDeCasasDeApuestas": "3.47",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.05"
+  },
+  {
+    "fecha": "2023-01-29",
+    "liga": "EREDIVISIE",
+    "equipoLocal": "Cambuur",
+    "equipoVisitante": "Fortuna Sittard",
+    "prediccionGanadorAPI": "Fortuna Sittard",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : draw or Fortuna Sittard",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "37.2%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "62.8%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.40",
+    "empatePromedioDeCasasDeApuestas": "3.37",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.90"
+  }
+]

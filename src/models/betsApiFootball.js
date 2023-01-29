@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const betsSchema = mongoose.Schema({
+const betsApiFootballSchema = mongoose.Schema({
     date: {
         type: String,
         required: false
@@ -26,7 +26,15 @@ const betsSchema = mongoose.Schema({
         required: false,
         default: false
     },
-    drawProbabilityTeam: {
+    advice: {
+        type: String,
+        required: false
+    },
+    homeTeamPercentage: {
+        type: String,
+        required: false
+    },
+    awayTeamPercentage: {
         type: String,
         required: false
     },
@@ -48,4 +56,4 @@ const betsSchema = mongoose.Schema({
     },
 }, { timestamps: true });
 
-module.exports = mongoose.model('Bets', betsSchema);
+module.exports = mongoose.model('BetsApiFootball', betsApiFootballSchema);

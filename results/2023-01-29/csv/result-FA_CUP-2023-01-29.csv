@@ -1,0 +1,4 @@
+"fecha","liga","equipoLocal","equipoVisitante","prediccionGanadorAPI","prediccionGanadorApuestas","comentarioAviso","posibilidadDeEmpate","equipoLocalPorcentajeEnLasEstadisticas","equipoVisitantePorcentajeEnLasEstadisticas","equipoLocalPromedioDeCasasDeApuestas","empatePromedioDeCasasDeApuestas","equipoVisitantePromedioDeCasasDeApuestas"
+"2023-01-29","FA_CUP","Wrexham","Sheffield Utd","Wrexham","Equipo Visitante","Double chance : Wrexham or draw","Probable","84.5%","15.5%","4.42","3.77","1.76"
+"2023-01-29","FA_CUP","Stoke City","Stevenage","Stoke City","Equipo Local","Double chance : Stoke City or draw","Probable","26.0%","74.0%","1.75","3.52","4.90"
+"2023-01-29","FA_CUP","Brighton","Liverpool","Brighton","Equipo Visitante","Combo Winner : Brighton and +1.5 goals","No","58.2%","42.0%","2.91","3.74","2.25"
