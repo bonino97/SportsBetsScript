@@ -18,7 +18,7 @@ router.get("/bets", async (req, res) => {
         const bets = await BetsSchema.find().sort({ date: -1 });
         res.json(bets);
     } catch (error) {
-        res.status(500).send(error);
+        res.json({ message: error });
     }
     BetsSchema
         .find()
