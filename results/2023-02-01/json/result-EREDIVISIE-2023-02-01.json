@@ -1,0 +1,17 @@
+[
+  {
+    "fecha": "2023-02-01",
+    "liga": "EREDIVISIE",
+    "equipoLocal": "Waalwijk",
+    "equipoVisitante": "GO Ahead Eagles",
+    "prediccionGanadorAPI": "Waalwijk",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : Waalwijk or draw",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "54.0%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "46.0%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.24",
+    "empatePromedioDeCasasDeApuestas": "3.56",
+    "equipoVisitantePromedioDeCasasDeApuestas": "3.00"
+  }
+]

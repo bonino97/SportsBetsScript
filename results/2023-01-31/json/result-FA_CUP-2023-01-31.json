@@ -1,0 +1,17 @@
+[
+  {
+    "fecha": "2023-01-31",
+    "liga": "FA_CUP",
+    "equipoLocal": "Birmingham",
+    "equipoVisitante": "Blackburn",
+    "prediccionGanadorAPI": "Blackburn",
+    "prediccionGanadorApuestas": "Equipo Local",
+    "comentarioAviso": "Double chance : draw or Blackburn",
+    "posibilidadDeEmpate": "Probable",
+    "equipoLocalPorcentajeEnLasEstadisticas": "36.6%",
+    "equipoVisitantePorcentajeEnLasEstadisticas": "63.4%",
+    "equipoLocalPromedioDeCasasDeApuestas": "2.41",
+    "empatePromedioDeCasasDeApuestas": "3.25",
+    "equipoVisitantePromedioDeCasasDeApuestas": "2.95"
+  }
+]

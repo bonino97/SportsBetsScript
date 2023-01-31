@@ -7,8 +7,6 @@ const getStatistics = async (results, date, league) => {
     if (!results || results?.length === 0) return [];
 
     const statistics = [];
-    const statisticsApi = [];
-    const statisticsNoApi = [];
 
     // Iterate results array
     for (const result of results) {
@@ -34,6 +32,52 @@ const getStatistics = async (results, date, league) => {
             noDrawName = `${ODDS_ENUM_SPANISH[lowerBookmaker]} & ${lowerBookmakerNoDrawTeam}`;
         }
 
+        const betsApiFootballExists = await BetsApiFootball.findOne({
+            date,
+            league,
+            homeTeam: result?.fixture?.teams?.home?.name,
+            awayTeam: result?.fixture?.teams?.away?.name,
+        });
+
+        if (!betsApiFootballExists) {
+            new BetsApiFootball({
+                date,
+                league,
+                homeTeam: result?.fixture?.teams?.home?.name,
+                awayTeam: result?.fixture?.teams?.away?.name,
+                winnerTeam: result?.fixture?.predictions?.winner?.name,
+                drawProbability: Boolean(result?.fixture?.predictions?.win_or_draw) ?? false,
+                advice: result?.fixture?.predictions?.advice,
+                homeTeamPercentage: result?.fixture?.comparison?.total?.home,
+                awayTeamPercentage: result?.fixture?.comparison?.total?.away,
+                homeBookmakerAverage: homeBookmakerAverage.toFixed(2),
+                drawBookmakerAverage: drawBookmakerAverage.toFixed(2),
+                awayBookmakerAverage: awayBookmakerAverage.toFixed(2),
+            }).save();
+        };
+
+        const betsExists = await Bets.findOne({
+            date,
+            league,
+            homeTeam: result?.fixture?.teams?.home?.name,
+            awayTeam: result?.fixture?.teams?.away?.name,
+        });
+
+        if (!betsExists) {
+            new Bets({
+                date,
+                league,
+                homeTeam: result?.fixture?.teams?.home?.name,
+                awayTeam: result?.fixture?.teams?.away?.name,
+                winnerTeam: lowerBookmakerName === 'home' ? result?.fixture?.teams?.home?.name : lowerBookmakerName === 'away' ? result?.fixture?.teams?.away?.name : 'draw',
+                drawProbability: Boolean(noDrawName) ?? false,
+                drawProbabilityTeam: lowerBookmakerNoDrawTeam,
+                homeBookmakerAverage: homeBookmakerAverage.toFixed(2),
+                drawBookmakerAverage: drawBookmakerAverage.toFixed(2),
+                awayBookmakerAverage: awayBookmakerAverage.toFixed(2),
+            }).save();
+        };
+
         statistics.push({
             fecha: date,
             liga: league,
@@ -49,63 +93,8 @@ const getStatistics = async (results, date, league) => {
             empatePromedioDeCasasDeApuestas: drawBookmakerAverage.toFixed(2),
             equipoVisitantePromedioDeCasasDeApuestas: awayBookmakerAverage.toFixed(2),
         });
-
-        // statisticsApi.push({
-        //     date,
-        //     league,
-        //     homeTeam: result?.fixture?.teams?.home?.name,
-        //     awayTeam: result?.fixture?.teams?.away?.name,
-        //     winnerTeam: result?.fixture?.predictions?.winner?.name,
-        //     drawProbability: Boolean(result?.fixture?.predictions?.win_or_draw) ?? false,
-        //     advice: result?.fixture?.predictions?.advice,
-        //     homeTeamPercentage: result?.fixture?.comparison?.total?.home,
-        //     awayTeamPercentage: result?.fixture?.comparison?.total?.away,
-        //     homeBookmakerAverage: homeBookmakerAverage.toFixed(2),
-        //     drawBookmakerAverage: drawBookmakerAverage.toFixed(2),
-        //     awayBookmakerAverage: awayBookmakerAverage.toFixed(2),
-        // });
-
-        new BetsApiFootball({
-            date,
-            league,
-            homeTeam: result?.fixture?.teams?.home?.name,
-            awayTeam: result?.fixture?.teams?.away?.name,
-            winnerTeam: result?.fixture?.predictions?.winner?.name,
-            drawProbability: Boolean(result?.fixture?.predictions?.win_or_draw) ?? false,
-            advice: result?.fixture?.predictions?.advice,
-            homeTeamPercentage: result?.fixture?.comparison?.total?.home,
-            awayTeamPercentage: result?.fixture?.comparison?.total?.away,
-            homeBookmakerAverage: homeBookmakerAverage.toFixed(2),
-            drawBookmakerAverage: drawBookmakerAverage.toFixed(2),
-            awayBookmakerAverage: awayBookmakerAverage.toFixed(2),
-        }).save();
-
-        // statisticsNoApi.push({
-        //     date,
-        //     league,
-        //     homeTeam: result?.fixture?.teams?.home?.name,
-        //     awayTeam: result?.fixture?.teams?.away?.name,
-        //     winnerTeam: lowerBookmakerName === 'home' ? result?.fixture?.teams?.home?.name : lowerBookmakerName === 'away' ? result?.fixture?.teams?.away?.name : 'draw',
-        //     drawProbability: Boolean(noDrawName) ?? false,
-        //     drawProbabilityTeam: lowerBookmakerNoDrawTeam,
-        //     homeBookmakerAverage: homeBookmakerAverage.toFixed(2),
-        //     drawBookmakerAverage: drawBookmakerAverage.toFixed(2),
-        //     awayBookmakerAverage: awayBookmakerAverage.toFixed(2),
-        // });
-
-        new Bets({
-            date,
-            league,
-            homeTeam: result?.fixture?.teams?.home?.name,
-            awayTeam: result?.fixture?.teams?.away?.name,
-            winnerTeam: lowerBookmakerName === 'home' ? result?.fixture?.teams?.home?.name : lowerBookmakerName === 'away' ? result?.fixture?.teams?.away?.name : 'draw',
-            drawProbability: Boolean(noDrawName) ?? false,
-            drawProbabilityTeam: lowerBookmakerNoDrawTeam,
-            homeBookmakerAverage: homeBookmakerAverage.toFixed(2),
-            drawBookmakerAverage: drawBookmakerAverage.toFixed(2),
-            awayBookmakerAverage: awayBookmakerAverage.toFixed(2),
-        }).save();
     }
+
     return statistics;
 }
 

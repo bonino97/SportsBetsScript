@@ -14,11 +14,14 @@ router.post("/bets", (req, res) => {
 });
 
 // get all bets
-router.get("/bets", (req, res) => {
-    betSchema
-        .find()
-        .then((data) => res.json(data))
-        .catch((error) => res.json({ message: error }));
+router.get("/bets", async (req, res) => {
+    try {
+        const bets = await betSchema.find().sort({ date: 1 }).exec();
+        res.json(bets);
+    } catch (error) {
+        console.error(error);
+        return;
+    }
 });
 
 // get all bets
