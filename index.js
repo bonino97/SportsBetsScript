@@ -27,6 +27,7 @@ const port = process.env.PORT || 3000;
 // middlewares
 app.use(express.json());
 app.use(cors());
+app.use(express.static('results'));
 
 app.use("/api", betsRoute);
 
@@ -50,8 +51,7 @@ const fetchApiFootballBetaData = async () => {
     // Create Date for Tomorrow. Format: YYYY-MM-DD
     const today = new Date();
     const addOneDayToDate = today.setDate(today.getDate() + 1);
-    // const date = new Date(addOneDayToDate).toISOString().slice(0, 10);
-    const date = '2023-01-31';
+    const date = new Date(addOneDayToDate).toISOString().slice(0, 10);
 
     // Convert enum into array
     const leagues = Object.values(API_FOOTBALL_LEAGUES_ENUM);
@@ -105,6 +105,6 @@ const main = async () => {
 
 
 // execute main function everyday at 18:00 pm ARG TIME.
-schedule.scheduleJob('0 0 18 * * *', async () => {
+schedule.scheduleJob('0 0 19 * * *', async () => {
     await main();
 });
